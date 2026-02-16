@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Power Rebalance Patch</name>
+	<author>Pupique</author>
+	<url>https://github.com/Pupique/PowerRebalancePatch</url>
+	<description>
+Even though this patch's name refers to a general rebalance for power generation, for now it's contained to patching fuel consumption for both Wood and Chemfuel generators. The name was left in its current generic form on purpose since it may be expanded to overhaul other power sources in the future as well.
+
+I was genuinely appalled by the Vanilla fuel consumption for both Wood- and Chemfuel-powered generators. I don't usually have them in my bases since I generally avoid having non-renewable power sources but the consumption for them is so low that they are infinitely better than their non-renewable counterparts with are usually more expensive to build, occupy more space and are more inconsistent overall.
+
+Therefore, this patch aims to rectify that by adding more impact to these generators' power consumption. The power output was left as it is.
+
+Feel free to visit the mod's repository on GitHub for more information: https://github.com/Pupique/PowerRebalancePatch
+
+NOTES
+This patch also applies to Vanilla Furniture Expanded - Power (https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477) but it is not required as a dependency.
+
+Since it merely adjusts a few variables, it is relatively safe to add and remove this mod mid-game.
+		</description>
+	<modIconPath IgnoreIfNoMatchingField="True"></modIconPath>
+	<supportedVersions>
+		<li>1.6</li>		
+	</supportedVersions>
+	<packageId>Pupique.PowerRebalancePatch</packageId>
+	<modDependencies>
+	</modDependencies>
+	<loadAfter>
+		<li>VanillaExpanded.VFEPower</li>
+	</loadAfter>
+</ModMetaData>

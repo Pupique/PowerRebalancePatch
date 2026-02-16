@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Industrial Wood Generator -->
+  
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_IndustrialWoodFiredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelConsumptionRate
+    </xpath>
+		<value>
+			<fuelConsumptionRate>120.0</fuelConsumptionRate>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_IndustrialWoodFiredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelCapacity
+    </xpath>
+		<value>
+			<fuelCapacity>350.0</fuelCapacity>
+		</value>
+	</Operation>
+  
+  <!-- Portable Wood Generator -->
+  
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_PortableWoodFiredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelConsumptionRate
+    </xpath>
+		<value>
+			<fuelConsumptionRate>35.0</fuelConsumptionRate>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Industrial Chemfuel Generator -->
+  
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_IndustrialChemfuelPoweredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelConsumptionRate
+    </xpath>
+		<value>
+			<fuelConsumptionRate>36.0</fuelConsumptionRate>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_IndustrialChemfuelPoweredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelCapacity
+    </xpath>
+		<value>
+			<fuelCapacity>400.0</fuelCapacity>
+		</value>
+	</Operation>
+  
+  <!-- Portable Chemfuel Generator -->
+  
+	<Operation Class="PatchOperationReplace">
+    <xpath>
+      /Defs/ThingDef[defName="VFE_PortableChemfuelPoweredGenerator"]
+      /comps/li[@Class="CompProperties_Refuelable"]
+      /fuelConsumptionRate
+    </xpath>
+		<value>
+			<fuelConsumptionRate>10.0</fuelConsumptionRate>
+		</value>
+	</Operation>
+
+</Patch>
