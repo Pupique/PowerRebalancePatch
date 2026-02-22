@@ -14,7 +14,7 @@ Even though this patch's name refers to a general rebalance for power generation
 
 ### Fuel Consumption
 
-I was genuinely appalled by the Vanilla fuel consumption for both Wood- and Chemfuel-powered generators. I don't usually have them in my bases since I generally avoid having non-renewable power sources but the consumption for them is so low that they are infinitely better than their non-renewable counterparts with are usually more expensive to build, occupy more space and are more inconsistent overall.
+I was genuinely appalled by the Vanilla fuel consumption for both Wood- and Chemfuel-powered generators. I don't usually have them in my bases since I generally avoid having non-renewable power sources but the consumption for them is so low that they are infinitely better than their renewable counterparts in which are usually more expensive to build, occupy more space and are more inconsistent overall.
 
 Therefore, this patch aims to rectify that by adding more impact to these generators' power consumption. The power output was left as it is.
 
